@@ -48,6 +48,7 @@
 		slide3action0,
 		slide3action1,
 		nextSlide,
+		nextSlide,
 		nextPage
 	]
 
