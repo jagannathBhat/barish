@@ -11,7 +11,7 @@
 		document.getElementById("slide" + currentSlide++).classList.add("slide--done")
 		setTimeout(() => {
 			document.body.style.transform = "translateY(-" + (currentSlide * 100) + "%)"
-		}, 300)
+		}, 400)
 	}
 
 	let nextPage = () => {
