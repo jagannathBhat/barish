@@ -125,6 +125,7 @@
 		slide2action0,
 		nextSlide,
 		slide3action0,
+		nextSlide,
 		nextSlide
 	]
 
