@@ -7,11 +7,11 @@
 #include <FirebaseArduino.h>                                                // firebase library
 #include <DHT.h>                                                            // dht11 temperature and humidity sensor library
 
-#define FIREBASE_HOST "baarish-cf1d5.firebaseio.com"                          // the project name address from firebase id
-#define FIREBASE_AUTH "TSM98gzz2oQZGzbf7ffOGLwKINhpEfBrGWCGevPZ"            // the secret key generated from firebase
+#define FIREBASE_HOST "<YourProjectName>.firebaseio.com"                          // the project name address from firebase id
+#define FIREBASE_AUTH "YOUR_AUTH_KEY"            // the secret key generated from firebase
 
-#define WIFI_SSID "CITTIC CUSAT"                                             // input your home or public wifi name 
-#define WIFI_PASSWORD "#appy#acking"                                    //password of wifi ssid
+#define WIFI_SSID "YOUR_SSID"                                             // input your home or public wifi name 
+#define WIFI_PASSWORD "YourPassword"                                    //password of wifi ssid
  
 #define DHTPIN D4                                                           // what digital pin we're connected to
 #define DHTTYPE DHT11                                                       // select dht type as DHT 11 or DHT22
