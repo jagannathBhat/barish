@@ -32,10 +32,9 @@
 
 	let slide3action0 = () => {
 		document.getElementById("rain1").classList.add("slideleft")
-	}
-
-	let slide3action1 = () => {
-		document.getElementById("face").setAttribute("src", "img/sad.svg")
+		setTimeout(() => {
+			document.getElementById("face").setAttribute("src", "img/sad.svg")
+		}, 400)
 	}
 
 	let actions = [
@@ -46,8 +45,6 @@
 		nextSlide,
 		nextSlide,
 		slide3action0,
-		slide3action1,
-		nextSlide,
 		nextSlide,
 		nextPage
 	]
